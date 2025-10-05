@@ -1,8 +1,10 @@
-# Connect Four in C# WinForms
+# 🎮 Connect Four in C# WinForms
 
 ## About the Project  
 This is a Connect Four game built as part of the Visual C# course at the ITI (Information Technology Institute), Full Stack .NET Track.  
 It demonstrates how to combine **WinForms**, **game logic**, and **GDI+ drawing** into a fun project with a polished user experience.  
+
+---
 
 ## Features  
 
@@ -26,7 +28,6 @@ It demonstrates how to combine **WinForms**, **game logic**, and **GDI+ drawing*
 - Splash screen with progress bar  
 - Main menu with game mode selection  
 - Embedded forms (game runs inside the same window for smooth navigation)  
-
 ---
 
 ## Screenshots  
@@ -40,7 +41,7 @@ It demonstrates how to combine **WinForms**, **game logic**, and **GDI+ drawing*
 📌 **Gameplay**  
 ![GamePlay](screenshots/Game-Board-Page.png) 
 
-📌 **Victory Popup 🎉**  
+📌 **Victory Popup**  
 ![Victory Popup](screenshots/yellow-wins.png)
 
 ---
@@ -50,8 +51,8 @@ It demonstrates how to combine **WinForms**, **game logic**, and **GDI+ drawing*
 1. Launch the application.  
 2. Choose your game mode: *Play with Friend* or *Play with Computer*.  
 3. Click on a column – your disc will drop to the lowest available slot.  
-4. First to connect four in a row (**horizontal, vertical, or diagonal**) wins.  
-5. Use the **Restart** button to play again, or **Home** to return to the menu.  
+4. First to connect four in a row (horizontal, vertical, or diagonal) wins.  
+5. Use the Restart button to play again, or Home to return to the menu.  
 
 ---
 
