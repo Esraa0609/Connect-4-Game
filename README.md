@@ -1,114 +1,93 @@
-🎮 Connect Four in C# WinForms
+# 🎮 Connect Four in C# WinForms
 
-🚀 About the Project
+## 🚀 About the Project  
+This is a Connect Four game built as part of the Visual C# course at the ITI (Information Technology Institute), Full Stack .NET Track.  
 
-This is a Connect Four game built as part of the Visual C# course at the ITI (Information Technology Institute), Full Stack .NET Track.
+It demonstrates how to combine **WinForms**, **game logic**, and **GDI+ drawing** into a fun project with a polished user experience.  
 
-It demonstrates how to combine WinForms, game logic, and GDI+ drawing into a fun project with a polished user experience.
-🚀 Features
+---
 
-👫 Two Modes
+## ✨ Features  
 
-Player vs Player
+### 👥 Two Modes  
+- Player vs Player  
+- Player vs Computer (with a basic AI that blocks and plays strategically)  
 
-Player vs Computer (with a basic AI that blocks and plays strategically)
+### 🎨 Custom Board Rendering  
+- Board and discs drawn with **GDI+**  
+- Red and Yellow discs with proper alignment  
 
-🎨 Custom Board Rendering
+### 🖱️ Simple Controls  
+- Click a column → disc drops automatically  
+- Turn indicator panel shows whose turn it is  
 
-Board and discs drawn with GDI+
+### 🔄 Game Management  
+- Restart button resets the board instantly  
+- Home button returns to the main menu (without opening new windows)  
 
-Red and Yellow discs with proper alignment
+### 🎭 UI Flow  
+- Splash screen with progress bar  
+- Main menu with game mode selection  
+- Embedded forms (game runs inside the same window for smooth navigation)  
 
-🖱️ Simple Controls
+---
 
-Click a column → disc drops automatically
+## 📸 Screenshots  
 
-Turn indicator panel shows whose turn it is
+📌 **Start Menu**  
 
-🔄 Game Management
+📌 **Game Mode Selection**  
 
-Restart button resets the board instantly
+📌 **Gameplay – Player vs Player**  
 
-Home button returns to the main menu (without opening new windows)
+📌 **Gameplay – Player vs Computer**  
 
-🎭 UI Flow
+📌 **Victory Popup 🎉**  
 
-Splash screen with progress bar
+---
 
-Main menu with game mode selection
+## 🎯 How to Play  
 
-Embedded forms (game runs inside the same window for smooth navigation)
+1. Launch the application.  
+2. Choose your game mode: *Play with Friend* or *Play with Computer*.  
+3. Click on a column – your disc will drop to the lowest available slot.  
+4. First to connect four in a row (**horizontal, vertical, or diagonal**) wins.  
+5. Use the **Restart** button to play again, or **Home** to return to the menu.  
 
-📸 Screenshots
+---
 
-📌 Start Menu
+## 🧠 Computer AI  
+The AI isn’t random – it follows simple strategy:  
+- Play winning move if available.  
+- Block opponent’s winning move.  
+- Prefer central columns (classic Connect Four strategy).  
 
+---
 
-📌 Game Mode Selection
+## 🎨 Graphics  
+Board and discs are drawn dynamically with **GDI+** using:  
+- `Graphics.FillRectangle`  
+- `Graphics.FillEllipse`  
 
+---
 
-📌 Gameplay – Player vs Player
+## 🛠️ Tech Stack  
+- C# .NET (WinForms)  
+- Visual Studio  
+- GDI+ Graphics  
 
+---
 
-📌 Gameplay – Player vs Computer
+## 🌟 Future Improvements  
+- 🎶 Add sound effects and background music  
+- 🧠 Smarter AI with difficulty levels  
+- 🎨 Disc drop animations  
+- 🌐 Online multiplayer using SignalR or sockets  
 
+---
 
-📌 Victory Popup 🎉
+## 💡 Final Note  
+This game is both a **learning milestone** and a **fun project**.  
 
-
-🎯 How to Play
-
-Launch the application.
-
-Choose your game mode: Play with Friend or Play with Computer.
-
-Click on a column – your disc will drop to the lowest available slot.
-
-First to connect four in a row (horizontal, vertical, or diagonal) wins.
-
-Use the Restart button to play again, or Home to return to the menu.
-🧠 Under the Hood
-
-Form Embedding
-Instead of opening multiple windows, game forms are embedded into the main form:
-
-gameForm.TopLevel = false;
-gameForm.FormBorderStyle = FormBorderStyle.None;
-gameForm.Dock = DockStyle.Fill;
-this.Controls.Add(gameForm);
-gameForm.Show();
-
-
-Computer AI
-The AI isn’t random – it follows simple strategy:
-
-Play winning move if available.
-
-Block opponent’s winning move.
-
-Prefer central columns (classic Connect Four strategy).
-
-Graphics
-Board and discs are drawn dynamically with GDI+ using Graphics.FillRectangle and Graphics.FillEllipse.
-
-🛠️ Tech Stack
-
-C# .NET (WinForms)
-
-Visual Studio
-
-GDI+ Graphics
-🌟 Future Improvements
-
-🎶 Add sound effects and background music
-
-🧠 Smarter AI with difficulty levels
-
-🎨 Disc drop animations
-
-🌐 Online multiplayer using SignalR or sockets
-💡 Final Note
-
-This game is both a learning milestone and a fun project.
-If you found it helpful or enjoyable, ⭐ star the repo – it really helps!
-Feedback and contributions are welcome 🚀
+If you found it helpful or enjoyable, ⭐ star the repo – it really helps!  
+Feedback and contributions are welcome 🚀  
