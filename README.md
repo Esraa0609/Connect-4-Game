@@ -1,11 +1,8 @@
 # 🎮 Connect Four in C# WinForms
 
-## 🚀 About the Project  
+## About the Project  
 This is a Connect Four game built as part of the Visual C# course at the ITI (Information Technology Institute), Full Stack .NET Track.  
-
 It demonstrates how to combine **WinForms**, **game logic**, and **GDI+ drawing** into a fun project with a polished user experience.  
-
----
 
 ## ✨ Features  
 
@@ -34,15 +31,17 @@ It demonstrates how to combine **WinForms**, **game logic**, and **GDI+ drawing*
 
 ## 📸 Screenshots  
 
-📌 **Start Menu**  
+📌 **Start Page**  
+![Start Menu](screenshots/start-Page.png)  
 
 📌 **Game Mode Selection**  
+![Game Mode Selection](screenshots/Choose-Mode-Page.png)  
 
-📌 **Gameplay – Player vs Player**  
-
-📌 **Gameplay – Player vs Computer**  
+📌 **Gameplay**  
+![GamePlay](screenshots/Game-Board-Page.png) 
 
 📌 **Victory Popup 🎉**  
+![Victory Popup](screenshots/yellow-wins.png)
 
 ---
 
